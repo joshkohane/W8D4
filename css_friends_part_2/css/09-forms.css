@@ -1,0 +1,82 @@
+/* PHASE 3: Forms */
+.form {
+    display: flex;
+    /* margin: 0 0 20px 0; */
+    /* flex-wrap: wrap; */
+}
+
+.form-thumb {
+    margin-right: 20px;
+}
+
+.form-field {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin: 0 0 20px 0;
+    width: 500px;
+    background-color: #eee;
+    padding: 19px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-field label {
+    display: block;
+    width: 100%;
+    font-weight: 700;
+    margin: 2px 0;
+}
+
+.form-field label[for='form-body'] {
+    margin-top: 20px;
+}
+
+
+.form-field input,
+.form-field > textarea {
+    display: block;
+    background-color: white;
+    width: calc(100% - 22px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-field input:focus,
+.form-field > textarea:focus {
+    border-color: #0c0;
+}
+
+.form-field textarea {
+    height: 120px;
+}
+
+.submit-btn {
+    position: relative;
+    background-color: #0c0;
+    color: white;
+    margin-top: 25px;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 0 #070;
+}
+
+.submit-btn:hover {
+    background-color: #0b0;
+}
+
+.submit-alt {
+    padding: 0 0 0 5px;
+    margin: 0
+}
+
+.cancel {
+    font-weight: 700;
+    padding: 0 0 0 5px;
+}
+
+.cancel:hover {
+    color: red;
+}
+

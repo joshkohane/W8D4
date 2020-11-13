@@ -1,0 +1,52 @@
+/* PHASE 4: Posts */
+
+.posts {
+    display: flex;
+    /* margin: 0 0 20px 0; */
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.posts:first-of-type {
+    border-top: 1px solid #ccc;
+}
+
+.post-text {
+    margin-left: 20px;
+}
+
+.post-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.post-text p {
+    font-size: 16px;
+    margin: 0 0 20px 0;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-tags {
+    display: flex;
+    color: #ccc;
+}
+
+.with-dots:before {
+    content: '·';
+    padding: 0 5px;
+}
+
+.post-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+}
+
+.post-nav li {
+    padding-left: 10px;
+}
